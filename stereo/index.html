@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Stereo VR</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<style>
+			body {
+				background:#777;
+				padding:0;
+				margin:0;
+				font-weight: bold;
+				overflow:hidden;
+				-webkit-full-screen { width: 100% };
+				-moz-full-screen{ width: 100% };
+				-ms-full-screen{ width: 100% };
+				-o-full-screen{ width: 100% };
+				full-screen{ width: 100% };
+			}
+			.fullScreenButton{
+				position: absolute;
+				bottom: 5px;
+				left: 5px;
+				padding: 5px;
+				background-color: #7b84a6;
+				border-radius: 10px;
+				color: rgb(51, 51, 51);
+				font-size: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<button class="fullScreenButton" id="btnFullscreen" type="button">Fullscreen</button>
+		<script src="js/libs/three.js"></script>
+		<script src="js/libs/StereoEffect.js"></script>
+		<script src="js/libs/Detector.js"></script>
+		<script src="js/libs/DeviceOrientationControls.js"></script>
+		<script src="js/libs/OrbitControls.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
