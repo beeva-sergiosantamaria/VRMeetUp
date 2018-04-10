@@ -10,6 +10,6 @@
 
 **3.** Abrir **objects/objects.js**, donde se encuentra la colección de objetos a incluir en escena.
 
-**4.** Copiar cualquiera de ellos dentro de la funcion **AddShape()** en la línea 65 de **main.js** para renderizar escena.
+**4.** Copiar cualquiera de ellos dentro de la funcion **buildShape()** en la línea 65 de **main.js** para renderizar escena.
 
 **5.** Combinar todos los elementos que se quieran para **crear** una buena una escena.
